@@ -176,6 +176,7 @@ h4 {
 .info-desc {
     margin-top: 60px;
     margin-bottom: 30px;
+    min-height: 190px;
 }
 
 .info-link {
@@ -282,6 +283,10 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
+
+    #planet-img {
+        width: 100%;
+    }
     .parameters {
         flex-direction: column;
     }
